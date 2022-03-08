@@ -20,7 +20,8 @@ RUN apt-get update && \
         libicu-dev \
         libxml2-dev \
         g++ \
-        git
+        git \
+        python2
 
 # Add necessary PHP Extensions
 RUN docker-php-ext-configure intl
